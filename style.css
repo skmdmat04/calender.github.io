@@ -4,7 +4,7 @@
 }
 #calender{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #ffffff;
 display: flex;
 flex: 1;
@@ -27,15 +27,15 @@ input{
 select{
     font-weight: 500;
     padding: 15px; 
-    padding-right: 6rem; 
     border: 2px solid black;
 }
 #calender_table{
     border-collapse: collapse;
+    margin: 0 3px;
 }
 #calender_table th, #calender_table td{
-    height: 4.2rem;
-    width: 5.2rem;
+    height: 3.2rem;
+    width: 4.2rem;
     border: 1px solid black;
     text-align: center;
 }
