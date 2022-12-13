@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#calender{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+display: flex;
+flex: 1;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 1.5rem;
+}
+.calender_select,.select_date{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.7rem 1.7rem;
+}
+input{
+    margin-right: 5px;
+    padding: 15px; 
+    font-weight: 400;
+    border: 2px solid black;
+}
+select{
+    font-weight: 500;
+    padding: 15px; 
+    padding-right: 6rem; 
+    border: 2px solid black;
+}
+#calender_table{
+    border-collapse: collapse;
+}
+#calender_table th, #calender_table td{
+    height: 4.2rem;
+    width: 5.2rem;
+    border: 1px solid black;
+    text-align: center;
+}
+#button{
+padding: 1rem 3rem  ;
+background-color: #00a2b7;
+color: white;
+border: none;
+}
+.selected{
+    background-color: green;
+}

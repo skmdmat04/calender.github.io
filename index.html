@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+</head>
+<body>
+  <div id="calender">
+    <div class="calender_select">
+        <!-- select month -->
+        <select id="month" onchange="monthhandler()">
+         <option value="select">Select Month</option>
+          <option value=0>JAN</option>
+          <option value=1>FEB</option>
+          <option value=2>MAR</option>
+          <option value=3>APR</option>
+          <option value=4>MAY</option>
+          <option value=5>JUN</option>
+          <option value=6>JUL</option>
+          <option value=7>AUG</option>
+          <option value=8>SEP</option>
+          <option value=9>OCT</option>
+          <option value=10>NOV</option>
+          <option value=11>DEC</option>  
+        </select>
+        <!-- select year -->
+          <select id="year" onchange="yearhandler()">
+         <option value="select">Select Year</option>
+        </select>
+    </div>
+    <table id="calender_table">
+       <thead>
+        <tr id="table_headrow">
+        </tr>
+       </thead>
+       <tbody id="table_body">
+        
+       </tbody>  
+    </table>
+    <div class="select_date">
+      <input type='number' id="date" placeholder="Enter Any Date"/>
+      <button onclick="enterDate()" id="button">Enter</button>
+    </div>
+  </div> 
+  <script src="./script.js"></script>
+</body>
+</html>
